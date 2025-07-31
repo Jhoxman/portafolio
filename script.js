@@ -358,17 +358,15 @@ document.querySelectorAll('.project-card, .education-card, .experience-card').fo
 // Console welcome message
 console.log(`
 🚀 Jhoxman Cárdenas Portfolio
-📧 Contact: jhoxman.dev@gmail.com
-📱 WhatsApp: +57 300 123 4567
+📧 Contact: jhoxman07@gmail.com
+📱 WhatsApp: +57 322 202 8929
 🌟 Frontend Junior Developer
-
-Hecho con ❤️ usando HTML, CSS y JavaScript
 `);
 
 // Add a floating WhatsApp button (optional enhancement)
 function createFloatingWhatsApp() {
     const floatingBtn = document.createElement('a');
-    floatingBtn.href = 'https://wa.me/573001234567?text=Hola%20Jhoxman,%20me%20interesa%20contactarte%20sobre%20desarrollo%20web';
+    floatingBtn.href = 'https://wa.me/573222028929?text=Hola%20Jhoxman,%20me%20interesa%20contactarte%20sobre%20desarrollo%20web';
     floatingBtn.target = '_blank';
     floatingBtn.rel = 'noopener';
     floatingBtn.className = 'floating-whatsapp';
